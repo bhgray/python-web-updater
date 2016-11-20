@@ -1,0 +1,19 @@
+<!-- #weekdate -->
+<!-- #weekdates -->
+<!-- #mondate -->
+<!-- #tuedate -->
+<!-- #weddate -->
+<!-- #thudate -->
+<!-- #fridate -->
+
+
+<!-- #moncw -->
+<!-- #monhw -->
+<!-- #tuecw -->
+<!-- #tuehw -->
+<!-- #wedcw -->
+<!-- #wedhw -->
+<!-- #thucw -->
+<!-- #thuhw -->
+<!-- #fricw -->
+<!-- #frihw -->

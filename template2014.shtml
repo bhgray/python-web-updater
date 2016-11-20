@@ -1,0 +1,32 @@
+<table width="100%" border="1">
+  <tr>
+    <th width="100" scope="col">Day</th>
+    <th width="188" scope="col">Classwork</th>
+    <th width="190" scope="col">Homework and Notes</th>
+  </tr>
+  <tr>
+    <td><a href="#mon">Mon., <!-- #mondate --> </a></td>
+    <td>&nbsp;<!-- #moncw --></td>
+    <td>&nbsp;<!-- #monhw --></td>
+  </tr>
+  <tr>
+    <td><a href="#tue">Tue., <!-- #tuedate --> </a></td>
+    <td>&nbsp;<!-- #tuecw --></td>
+    <td>&nbsp;<!-- #tuehw --></td>
+  </tr>
+  <tr>
+    <td><a href="#wed">Wed., <!-- #weddate --> </a></td>
+    <td>&nbsp;<!-- #wedcw --></td>
+    <td>&nbsp;<!-- #wedhw --></td>
+  </tr>
+  <tr>
+    <td><a href="#thu">Thu., <!-- #thudate --> </a></td>
+    <td>&nbsp;<!-- #thucw --></td>
+    <td>&nbsp;<!-- #thuhw --></td>
+  </tr>
+  <tr>
+    <td><a href="#fri">Fri., <!-- #fridate --> </a></td>
+    <td>&nbsp;<!-- #fricw --></td>
+    <td>&nbsp;<!-- #frihw --></td>
+  </tr>
+</table>

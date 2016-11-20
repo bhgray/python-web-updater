@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE da  [
+<!ELEMENT todos (todo*)>
+<!ELEMENT todo (date,note)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT letterDay (#PCDATA)>
+<!ELEMENT cw (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+<!ATTLIST course
+  key (CS3|CS2A|CS2B|ALG2) "CS3"
+>
+<!ELEMENT hw (#PCDATA)>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT plan (date,letterDay,note?,summary?,location?,cw?,hw?,todos?)>
+<!ATTLIST plan
+  include (0|1|2) "0"
+  day (mon|tue|wed|thu|fri|sat) "mon"
+  seq (1|2|3|4|5|6) "1"
+>
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST location
+  id (202|209|AUD) "202"
+>
+<!ELEMENT plans (plan*)>
+<!ELEMENT da (course,plans?)>
+]>
+<da>
+  <course key="ALG2"></course>
+  <plans>
+    <plan day="mon" include="0" seq="1">
+      <date>10/10/05</date>
+      <letterDay></letterDay>
+	<note>Columbus Day (SDP Closed)</note>
+    </plan>
+    <plan day="tue" include="1" seq="2">
+      <date>10/11/05</date>
+      <letterDay>E</letterDay>
+      <note></note>
+      <summary></summary>
+      <location id="209"></location>
+      <cw>
+				tue cw
+			</cw>
+      <hw>
+				tue hw
+			</hw>
+    </plan>
+    <plan day="wed" include="1" seq="3">
+      <date>10/12/05</date>
+      <letterDay>F</letterDay>
+      <note>PSAT Administration</note>
+      <summary></summary>
+      <location id="202"></location>
+      <cw>
+				wed cw
+			</cw>
+      <hw>
+				wed hw
+			</hw>
+    </plan>
+    <plan day="thu" include="0" seq="4">
+      <date>10/13/05</date>
+      <letterDay></letterDay>
+      <note>Yom Kippur (SDP Closed)</note>
+    </plan>
+    <plan day="fri" include="1" seq="5">
+      <date>10/14/05</date>
+      <letterDay>F</letterDay>
+      <note></note>
+      <summary></summary>
+      <location id="202"></location>
+      <cw>
+				fri cw
+			</cw>
+      <hw>
+				fri hw
+			</hw>
+    </plan>
+    <plan day="sat" include="0" seq="6">
+      <date></date>
+      <letterDay></letterDay>
+    </plan>
+  </plans>
+</da>

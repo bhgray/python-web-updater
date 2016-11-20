@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="da.xsl"?>
+
+<da>
+	<course>
+		<key>CS3</key>
+		<title>Computer Science 3</title>
+		<mods>1/2</mods>
+		<meetings>
+			CDEF
+		</meetings>
+	</course>
+	<plans>
+		<mon include="0">
+			<date>10/10/05</date>
+			<letterDay></letterDay>
+			<note>Columbus Day (SDP Closed)</note>
+			<summary></summary>
+			<location id="202" />
+			<cw>
+				mon cw
+			</cw>
+			<hw>
+				mon hw
+			</hw>
+			<todos>
+				<todo when="">
+					<dueDate></dueDate>
+					<note></note>
+				</todo>
+			</todos>
+		</mon>
+		<tue include="1">
+			<date>10/11/05</date>
+			<letterDay>E</letterDay>
+			<note></note>
+			<summary></summary>
+			<location id="209" />
+			<cw>
+				tue cw
+			</cw>
+			<hw>
+				tue hw
+			</hw>
+			<todos>
+				<todo when="">
+					<dueDate></dueDate>
+					<note></note>
+				</todo>
+			</todos>
+		</tue>
+		<wed include="1">
+			<date>10/12/05</date>
+			<letterDay>F</letterDay>
+			<note>PSAT Administration</note>
+			<summary></summary>
+			<location id="" />
+			<cw>
+				wed cw
+			</cw>
+			<hw>
+				wed hw
+			</hw>
+			<todos>
+				<todo when="">
+					<dueDate></dueDate>
+					<note></note>
+				</todo>
+			</todos>
+		</wed>
+		<thu include="0">
+			<date>10/13/05</date>
+			<note>Yom Kippur (SDP Closed)</note>
+			<summary></summary>
+			<letterDay></letterDay>
+			<location id="" />
+			<cw>
+				thu cw
+			</cw>
+			<hw>
+				thu hw
+			</hw>
+			<todos>
+				<todo when="">
+					<dueDate></dueDate>
+					<note></note>
+				</todo>
+			</todos>
+		</thu>
+		<fri include="1">
+			<date>10/14/05</date>
+			<note></note>
+			<summary></summary>
+			<letterDay>F</letterDay>
+			<location id="" />
+			<cw>
+				fri cw
+			</cw>
+			<hw>
+				fri hw
+			</hw>
+			<todos>
+				<todo when="">
+					<dueDate></dueDate>
+					<note></note>
+				</todo>
+			</todos>
+		</fri>
+		<sat include="0">
+			<date></date>
+			<letterDay></letterDay>
+			<note></note>
+			<summary></summary>
+			<location id="" />
+			<cw>
+				sat cw
+			</cw>
+			<hw>
+				sat hw
+			</hw>
+			<todos>
+				<todo when="">
+					<dueDate></dueDate>
+					<note></note>
+				</todo>
+			</todos>
+		</sat>
+	</plans>
+</da>
+

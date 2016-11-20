@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="expires" content="Mon, 31 Dec 2001 23:59:59 GMT">
+<title>Teachopensource.org :: CompSci :: CS3 (Mods 1/2) Assignments</title>
+<link rel="stylesheet" href="../../styles/2col_leftNav.css" type="text/css">
+</head>
+<body> 
+
+<!--#include virtual="../../masthead.inc" -->
+
+<!-- InstanceBeginEditable name="content" -->
+<div id="content">
+		<div id="breadCrumb">
+			<a href="../index.shtml">Home</a> / <a href="index.shtml">CS Home</a> / 
+			<a href="../cs3syll.shtml" target="_self">CS3 (Mods 1/2 CDEF) Home</a> 
+			/ Week of <!-- #weekdate -->
+			
+		</div>
+  		<h2 id="pageName">Asssignment Details :: Week of <!-- #weekdate --></h2> 
+		<div class="story">
+			<h3>Week Summary</h3>
+			<p>Click on the day to advance to the details contained below.</p>
+			<table width="500" border="1">
+  <tr>
+    <th width="100" scope="col">Day</th>
+    <th width="188" scope="col">Classwork</th>
+    <th width="190" scope="col">Homework</th>
+  </tr>
+  <tr>
+    <td><a href="#mon">Mon., <!-- #mondate --> </a></td>
+    <td>&nbsp;<!-- #moncw --></td>
+    <td>&nbsp;<!-- #monhw --></td>
+  </tr>
+  <tr>
+    <td><a href="#tue">Tue., <!-- #tuedate --> </a></td>
+    <td>&nbsp;<!-- #tuecw --></td>
+    <td>&nbsp;<!-- #tuehw --></td>
+  </tr>
+  <tr>
+    <td><a href="#wed">Wed., <!-- #weddate --> </a></td>
+    <td>&nbsp;<!-- #wedcw --></td>
+    <td>&nbsp;<!-- #wedhw --></td>
+  </tr>
+  <tr>
+    <td><a href="#thu">Thu., <!-- #thudate --> </a></td>
+    <td>&nbsp;<!-- #thucw --></td>
+    <td>&nbsp;<!-- #thuhw --></td>
+  </tr>
+  <tr>
+    <td><a href="#fri">Fri., <!-- #fridate --> </a></td>
+    <td>&nbsp;<!-- #fricw --></td>
+    <td>&nbsp;<!-- #frihw --></td>
+  </tr>
+</table>
+</div>
+	 <div class="story"> 
+			<h3><a name="mon">Mon., <!-- #mondate --> </a></h3>
+			<!-- #mondetails -->
+	 </div>
+	  <div class="story">
+			<h3><a name="tue">Tue., <!-- #tuedate --> </a></h3>
+			<!-- #tuedetails -->
+		</div>
+	<div class="story">
+		  <h3><a name="wed">Wed., <!-- #weddate --> </a></h3>
+			<!-- #weddetails -->
+	  </div>
+		<div class="story">
+			<h3><a name="thu">Thu., <!-- #thudate --> </a></h3>
+			<!-- #thudetails -->
+		</div>		  
+	  <div class="story">
+			<h3><a name="fri">Fri., <!-- #fridate --> </a></h3>
+			<!-- #fridetails -->
+	  </div>
+
+</div>
+	<!-- InstanceEndEditable -->
+
+<!--#include virtual="../navbar.inc" -->
+
+<!--#include virtual="../../siteinfo.inc" -->
+
+<br> 
+</body>
+<!-- InstanceEnd --></html>
